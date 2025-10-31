@@ -1,0 +1,8 @@
+dbt/seed
+.DS_Store
+.idea
+dbt/logs
+dbt/seed
+dbt/target
+dbt/logs/dbt.log
+dbt/target/graph_summary.json

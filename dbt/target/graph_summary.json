@@ -1,0 +1,1 @@
+{"_invocation_id": "19384f95-b408-4142-9d3f-7ffbb7e33cf6", "linked": {"0": {"name": "seed.pokemon_dbt.pokemon", "type": "seed", "succ": [1]}, "1": {"name": "model.pokemon_dbt.pokemon_info", "type": "model", "succ": [2]}, "2": {"name": "model.pokemon_dbt.legendary_report", "type": "model"}}}

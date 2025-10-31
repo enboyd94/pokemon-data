@@ -1,0 +1,22 @@
+name: 'pokemon_dbt'
+version: '1.0'
+config-version: 2
+
+profile: 'default'
+
+model-paths: ["models"]
+seed-paths: ["seed"]
+
+models:
+  pokemon_dbt:
+    staging:
+      +materialized: table
+    final:
+      +materialized: view
+
+seeds:
+  pokemon_dbt:
+    pokemon_csv:
+      file: pokemon.csv
+      header: true
+      delimiter: ','
