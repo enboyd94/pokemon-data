@@ -20,3 +20,14 @@ To view postgres - view the [5050 localhost.](http://localhost:5050/browser/)
 UN: admin@admin.com
 
 PW: admin
+
+You can set up the airflow server with the following steps:
+
+1. Click 'add new credentials'
+2. Name the server (can be whatever)
+3. Go to connection tab -> host name is `postgres`
+4. Add port = `5432`
+5. Username = `airflow`
+6. Password = `airflow`
+
+Save it and query the schema. Schema is called `dbt_pokemon`
