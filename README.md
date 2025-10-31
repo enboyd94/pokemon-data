@@ -10,9 +10,13 @@ Information about different Pokemon! You can install the dataset with Kaggle [he
 The postgres server should now be ready.
 
 To check airflow outputs - view the [8080 localhost.](http://localhost:8080/)
+
 UN: admin
+
 PW: admin
 
 To view postgres - view the [5050 localhost.](http://localhost:5050/browser/)
+
 UN: admin@admin.com
+
 PW: admin
