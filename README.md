@@ -5,7 +5,7 @@ Information about different Pokemon! You can install the dataset with Kaggle [he
 
 1. Download the pokemon code and load it into `dbt/seed`
 2. Run `docker compose build --no-cache airflow`
-3. Run `docker compose up`
+3. Run `docker compose up postgres airflow pgadmin`
 
 The postgres server should now be ready.
 
