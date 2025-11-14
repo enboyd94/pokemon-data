@@ -7,6 +7,8 @@ Information about different Pokemon! You can install the dataset with Kaggle [he
 2. Run `docker compose build --no-cache airflow`
 3. Run `docker compose up postgres airflow pgadmin`
 
+If you are having issues with step 3, try running docker this way: `docker compose run --rm airflow airflow db migrate`
+
 The postgres server should now be ready.
 
 To check airflow outputs - view the [8080 localhost.](http://localhost:8080/)
